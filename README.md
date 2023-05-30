@@ -17,3 +17,19 @@ Amazon-EventBridge-Scheduler-Execution
         }
     ]
 }
+
+
+{
+  "Effect": "Allow",
+  "Action": "lambda:InvokeFunction",
+  "Resource": "arn:aws:lambda:region:account-id:function:function-name",
+  "Principal": {
+    "Service": "events.amazonaws.com"
+  },
+  "Condition": {
+    "ArnLike": {
+      "AWS:SourceArn": "arn:aws:events:region:account-id:rule/rule-name"
+    }
+  },
+  "Sid": "InvokeLambdaFunction"
+}
