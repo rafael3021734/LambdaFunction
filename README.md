@@ -33,3 +33,6 @@ Amazon-EventBridge-Scheduler-Execution
   },
   "Sid": "InvokeLambdaFunction"
 }
+
+
+https://repost.aws/pt/knowledge-center/eventbridge-lambda-not-triggered
