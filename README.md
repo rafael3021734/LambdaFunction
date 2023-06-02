@@ -36,3 +36,4 @@ Amazon-EventBridge-Scheduler-Execution
 
 
 https://repost.aws/pt/knowledge-center/eventbridge-lambda-not-triggered
+(https://www.freecodecamp.org/portuguese/news/aws-identity-and-access-management-iam-explicado-com-uma-analogia/)
